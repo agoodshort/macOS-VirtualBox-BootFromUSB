@@ -5,4 +5,6 @@ This script assumes that you have already created a a VM in VirtualBox. You do n
 
 I wrote this script because I found it really annoying to everytime struggle get the right vmdk and change the owner of the /dev/disk#
 
+Make sure to edit the variables before launching the script.
+
 So far I have only tested it only on Mac.
