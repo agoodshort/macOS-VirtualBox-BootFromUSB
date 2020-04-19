@@ -37,7 +37,7 @@ if [ -n "${VMDK}" ] && [ -n "${VM_NAME}" ]; then
   echo "#######################################"
 
   ## Get ownership of the disk, otherwise VirtualBox will prompt error message
-  sudo chown adrimac "${USB_LOC}"
+  sudo chown $USER "${USB_LOC}"
   diskutil unmountdisk "${USB_LOC}"
 
   echo ""
