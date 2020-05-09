@@ -6,8 +6,6 @@ This script will let you boot from a USB stick in a VM of your VirtualBox app wi
 
 Please read through the steps below before running the bash scripts.
 
-Run this script at your own risk.
-
 ### What will happen
 
 The script will create a VMDK file pointing to your USB hard drive and attach it to your VM.
@@ -29,7 +27,7 @@ This script assumes you have only one USB drive attached to your computer and it
 git clone "https://github.com/goodshort/macOS-VirtualBox-BootFromUSB.git"
 ```
 
-2. Uncomment and rename the variable VM_NAME with your favourite text editor
+2. Uncomment and rename the variable VM_NAME
 
 ```
 vim macOS-VirtualBox-BootFromUSB/bootFromUSB
@@ -41,10 +39,6 @@ vim macOS-VirtualBox-BootFromUSB/bootFromUSB
 ./macOS-VirtualBox-BootFromUSB/bootFromUSB
 ```
 You VM will start with your USB drive.
-
-## Authors
-
-* **Adrien Biencourt** - *Initial work* - [goodshort](https://github.com/goodshort)
 
 ## License
 
