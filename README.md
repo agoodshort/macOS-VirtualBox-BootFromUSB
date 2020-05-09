@@ -17,7 +17,7 @@ You will need VirtualBox already installed on your machine. You can download it 
 
 Make sure to edit the variable VM_NAME before launching the script. More details in the [Usage](https://github.com/goodshort/macOS-VirtualBox-BootFromUSB#Usage) section.
 
-This script assumes you have only one USB drive attached to your computer and it has already been mounted when running the script.
+This script assumes you have only one USB drive attached to your computer and it has already been mounted before running the script.
 
 ### Usage
 
